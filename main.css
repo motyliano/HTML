@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana;
+}
+h1 {
+  font-family: Cursive;
+  background: White;
+  color: Black;
+}
+
+p {
+  width: 400px;
+  padding: 50px;
+  color: White;
+}
+
+body {
+  background-color: Black;
+  color: White;
+}
+
+article figure {
+  width: auto;
+  border: 3px solid White;
+  padding: 50px;
+  float: right;
+}
+
+article figure img {
+  width: 100%;
+}
+
+nav ul li {
+  background-color: Black;
+  list-style: none;
+  display: inline;
+  border: 2px solid White;
+  padding: 5px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li a {
+  color: White;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline Orange;
+  background-color: Red;
+}
+
+footer {
+  position: absolute;
+	bottom:0;
+  width:100%;
+	height:20px;
+  background:LightBlue;
+  color: DarkBlue;
+}
+
+input {
+  float : right;
+  font-weight: 900;
+  background: Red;
+  padding: 5px;
+  margin: 0;
+  width: 50px;
+}
+
+img {
+  float :right;
+}
+
+th {
+  background-color: White;
+  Color: Black;
+}
+
+table {
+  margin: 10px;
+  padding: 50px;
+  border: 1px solid White;
+}
+
+ul {
+  margin: 30px;
+}
+
+h3 {
+  margin: 30px;
+}

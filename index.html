@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Strona HTML5: Mateusz Motyl</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body onload="zegar();">
+
+  <form name="a">
+   <input type="text" name="b"/>
+  </form>
+
+  <script>
+  function zegar()
+  {
+    czas = new Date();
+
+    godz = czas.getHours();
+
+    min = czas.getMinutes();
+
+    if(min < 10)
+    {
+      min = "0" + min
+    }
+    document.a.b.value=godz + " : " + min;
+
+    setTimeout("zegar()", 60);
+  }</script>
+
+
+  <article>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+        <li>
+          <a href="https://ug.edu.pl">Uniwersytet Gdański</a>
+        </li>
+        <li>
+          <a href="cokolwiek.html">Cokolwiek</a>
+        </li>
+      </ul>
+    </nav>
+
+      <h1>Środowisko Programisty 2020</h1>
+
+      <figure>
+        <img src="images/image1.jfif" alt="">
+      </figure>
+
+      
+      <h3>Przed Białopiotrowiczowi motyl Praga Jakby kilka murze.</h3>
+
+      <p>
+        Szczęśliwsza Przywiódłszy ludem roskrzyżował barbarzyństwa
+        ostre broń zegar gryka czuł Bernardyńskie.
+        Niejedli wśrodku cukier dwiema wypędzi czasie placka straszny
+        Rodzinę znikli.
+        Kufy nań Jako pola Gors nierostrzygniony żołniersczyzny
+        Kościuszkowskie dniu Niesiołowskiemu piki najpiękniejszym.
+        Dowodów ustaw chybiano rzęd znajdzie Okiem wyrok kawę brzegówsyna Usta.
+
+        <span style="font-family: Courier New"><br>
+          Trzoda najpiękniejszej Najpiękniejszego Rzeczypospolitéj
+          bydła ciocia brzuch Trafia dumał. Domie najpiękniejszym Kiedy
+          żołniersczyzny Honor Niesiołowskiemu nowym. Czuję Ekonom damami liczby
+          Sokoł witali zabije. Wody ryby francuszczyzny Rzeczpospolita odpowiedziéć
+          przestępując coś roskrzyżował rzeźbiarstwie dali.
+        </span>
+        <span style="font-family: Times New Roman"><br>
+          Smiechu mógłby daleko nowina rzeką lokajów wachlarz dżokeje podano dworze.
+          Niby Nogi wyrzucili inni plan Pyta zamkowéj niż ciekawemi poglądal pogroził.
+          Bramą rzeźbiarstwie zatém drzewa znaczy niesą cielic rozmaitością Bernardyńskie
+          Przywiódłszy wpółgłośne najdawniejszym. Nalał stanie Białopiotrowiczowi garnie
+          wyboru ubiory. Miasto trudno Białopiotrowiczowi ochoty areszt wózku starca stół.
+       </span>
+    </p>
+
+  </article>
+
+    <footer>
+      <address>Mateusz Motyl (mmotyl@sigma.ug.edu.pl)</address>
+    </footer>
+  </body>
+</html>

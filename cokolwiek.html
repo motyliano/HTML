@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Newsy</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body onload="zegar();">
+
+  <form name="a">
+    <input type="text" name="b"/>
+  </form>
+
+  <script>
+  function zegar()
+  {
+    czas = new Date();
+
+    godz = czas.getHours();
+
+    min = czas.getMinutes();
+
+    if(min < 10)
+    {
+      min = "0" + min
+    }
+    document.a.b.value=godz + " : " + min;
+
+    setTimeout("zegar()", 60);
+  }
+  </script>
+
+
+  <article>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+        <li>
+          <a href="https://ug.edu.pl">Uniwersytet Gdański</a>
+        </li>
+        <li>
+          <a href="cokolwiek.html">Cokolwiek</a>
+        </li>
+      </ul>
+    </nav>
+
+      <h1>Środowisko Programisty 2020</h1>
+    <img src="images/image2.jpg" alt="">
+
+        <ul>
+          <li>Polem zyzem Młodzież zaśmiała mleczarnie</li>
+          <li> dziki Póty uciszając czuł.</li>
+          <li>Rzeczypospolitéj najpiękniejszej Najpiękniejszego</li>  
+      </ul>
+    
+      <p>
+        Koszyk lepiej. Nierostrzygniony Kościuszkowskie chorem najpiękniejszym
+        Niesiołowskiemu muszę zwykle żołniersczyzny skroń Ręką białe. Przy
+        Trzy nogi Najpiękniejszego najpiękniejszéj moda Syna Rzeczypospolitej
+        oczy koń Bogu. Roskrzyżował wicher nieprzyjaciele laskę Ciebie Starzy
+        kwiaty bitwie przestępując stanie niezwyczajnéj najdawniejszym prapradziadów.
+        Napełniając zaczerwienił stada kroju toczy skarb znał pewny Zazdroszczono
+        Twych. Czytam wzbił jeśli stryja Szkoda pieprz Szabli ciemnozieloném
+        całą Bezładnością dojeżdżaczów. Swoją zdrowe Białopiotrowiczem
+        wesoł dłoni niecne cienki zdała podano. Czary oprawną nowym nazwisko
+        sądu Zamku Bonapart wyzwanie budzące dziécie. Kąty desce wódz roztargnieniu
+        stare puste nadzwyczajnie Przystawiwszy nieczynności przestraszeni innym
+      </p>
+
+      <table style="float:left; ">
+        <tr>
+          <th>Nr</th>
+          <th>Owoc</th>
+          <th>Litery</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Jabłko</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Gruszka</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Śliwka</td>
+          <td>C</td>
+        </tr>
+      </table>
+
+      <table style="float:right; ">
+       <tr>
+          <td>1</td> <td>2</td> <td>3</td>
+       </tr>
+       <tr>
+          <td>4</td> <td>5</td> <td>6</td>
+       </tr>
+       <tr>
+          <td>7</td> <td>8</td> <td>9</td>
+       </tr>
+      </table>
+
+    </article>
+  </body>
+</html>
